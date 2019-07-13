@@ -23,7 +23,7 @@ exit
 # Copyright (c) 2008, 2009, 2010, 2018, 2019 INABA Hitoshi <ina@cpan.org> in a CPAN
 ######################################################################
 
-$VERSIONE = '0.08';
+$VERSIONE = '0.09';
 $VERSIONE = $VERSIONE;
 use strict;
 use FindBin;
@@ -197,11 +197,11 @@ use strict;
 use ExtUtils::MakeMaker;
 
 WriteMakefile(
-    'NAME'      => '%s',
-    'VERSION'   => '%s',
-    'ABSTRACT'  => '%s',
+    'NAME'      => q{%s},
+    'VERSION'   => q{%s},
+    'ABSTRACT'  => q{%s},
     'PREREQ_PM' => { },
-    'AUTHOR'    => 'ina <ina@cpan.org> in a CPAN',
+    'AUTHOR'    => q{ina <ina@cpan.org> in a CPAN},
 );
 
 __END__
